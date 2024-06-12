@@ -33,6 +33,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A
           git commit -m 'build: automated build'
+          git remote set-url --push origin https://RafaelN0bre:$GITHUB_TOKEN@github.com/RafaelN0bre/amoalolo
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
