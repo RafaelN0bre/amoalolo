@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { FaSpotify } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
