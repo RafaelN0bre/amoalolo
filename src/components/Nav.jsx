@@ -1,18 +1,15 @@
-import React, {useState} from 'react'
+import React, {useRef} from 'react'
 import { AiFillHeart } from "react-icons/ai";
 
 const Nav = ({ onSequenceMatch }) => {
-  const [clickSequence, setClickSequence] = useState([]);
+  const clickSequenceRef = useRef([]);
 
   const handleClick = (index) => {
-    console.log(index)
-    setClickSequence((prevSequence) => {
-      const newSequence = [...prevSequence, index].slice(-3); // Keep only the last 3 clicks
-      if (newSequence.join('') === '231') {
-        onSequenceMatch();
-      }
-      return newSequence;
-    });
+    clickSequenceRef.current = [...clickSequenceRef.current, index].slice(-3); // Keep only the last 3 clicks
+    if (clickSequenceRef.current.join('') === '231') {
+      onSequenceMatch();
+      clickSequenceRef.current = []; // Reset the sequence after match
+    }
   };
 
   return (
