@@ -30,7 +30,11 @@ const quotes = [
   'Obrigado por me fazer viver os momentos mais lindos que eu já vivi',
   'Amo o jeito como você bate as unhas em tudo que toca fazendo um ASMR',
   'Eu nunca me canso da sua voz linda que me apaixonou desde o primeiro dia',
-  'Obrigado por ser a lolo'
+  'Obrigado por ser a lolo',
+  'Amo quando faz alguma atrocidade no trânsito e fala oops!',
+  'Amo quando me conta do seu dia detalhadamente',
+  'Amo quando você dá pirueta do nada',
+  'Estamos quase faze 1 ano e 2 meses e eu me sinto apaixonado a cada dia - 19/09/2024'
 ];
 
 export default quotes;
