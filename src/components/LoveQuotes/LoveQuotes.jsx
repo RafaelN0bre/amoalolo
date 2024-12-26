@@ -4,21 +4,17 @@ import styled from 'styled-components';
 
 import quotes from './quotes';
 
-Modal.setAppElement('#root');  // Necessário para acessibilidade
+Modal.setAppElement('#root');
 
 const LoveQuotes = ({ open, onClose }) => {
   const [modalIsOpen, setModalIsOpen] = useState(open);
   const [quote, setQuote] = useState('');
 
   useEffect(() => {
-    // Sincronizar o estado do modal com a prop 'open'
     setModalIsOpen(open);
   }, [open]);
 
-  // Lista de frases de amor
-
   useEffect(() => {
-    // Função para calcular o dia do ano
     const getDayOfYear = (date) => {
       const startOfYear = new Date(date.getFullYear(), 0, 1);
       const diff = date - startOfYear;

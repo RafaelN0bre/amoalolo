@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCarousel from "./ImageCarousel";
 
 const VideoContainer = () => {
   return (
@@ -22,14 +23,7 @@ const VideoContainer = () => {
           </p>
         </div>
       </div>
-      <div className="w-full md:w-2/5 h-[300px] md:h-full relative">
-        <img
-          className="w-full absolute top-0 rounded-xl h-full object-contain"
-          loading="lazy"
-          src="images/colagem.jpg"
-          alt=""
-        />
-      </div>
+      <ImageCarousel />
     </div>
   );
 };

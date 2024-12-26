@@ -43,33 +43,21 @@ const Footer = () => {
         </div>
         <div className="flex flex-col space-y-3">
           <h1 className="font-bold">🩵 Obrigado por</h1>
-          <a className="text-sm text-gray-400" href="/">
-            me namorar
-          </a>
-          <a className="text-sm text-gray-400" href="/">
-            ser bonita e gostosa
-          </a>
-          <a className="text-sm text-gray-400" href="/">
-            ter o cabelo bonito e azul
-          </a>
-          <a className="text-sm text-gray-400" href="/">
-            me apaixonar cada vez mais
-          </a>
+          <p className="text-sm text-gray-400">me namorar</p>
+          <p className="text-sm text-gray-400">ser bonita e gostosa</p>
+          <p className="text-sm text-gray-400">ter o cabelo bonito e azul</p>
+          <p className="text-sm text-gray-400">me apaixonar cada vez mais</p>
         </div>
         <div className="flex flex-col space-y-3">
           <h1 className="font-bold">🩵 Eu amo</h1>
-          <a className="text-sm text-gray-400" href="/">
-            o seu cheiro de morango
-          </a>
-          <a className="text-sm text-gray-400" href="/">
+          <p className="text-sm text-gray-400">o seu cheiro de morango</p>
+          <p className="text-sm text-gray-400">
             o jeito como você verifica a temperatura da comida com a língua
-          </a>
-          <a className="text-sm text-gray-400" href="/">
+          </p>
+          <p className="text-sm text-gray-400">
             o jeito como você dá beijinhos na toalha de rosto
-          </a>
-          <a className="text-sm text-gray-400" href="/">
-            a dança do cookie
-          </a>
+          </p>
+          <p className="text-sm text-gray-400">a dança do cookie</p>
         </div>
       </div>
       <div className="border-t py-2">
