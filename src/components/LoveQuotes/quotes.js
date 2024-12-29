@@ -33,6 +33,7 @@ const quotes = [
   'Amo a dancinha do cookie',
   'Eu amo literalmente quando você fala QUALQUER COISA',
   'Você sempre vai ser meu maior presente',
+  'Amo quando você diz {QUALQUER COISA} dos bebês',
   'Eu amo seu cabelo azul lindo que me apaixonou',
   'Amo o jeito como é disciplina e inteligente',
   "Amo quando você corre gritando que vai fazer pip's real quick",
